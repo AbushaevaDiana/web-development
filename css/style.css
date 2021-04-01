@@ -1,0 +1,133 @@
+.body
+{
+    margin: auto 0;
+}
+
+.header
+{ 
+    margin: 50px 480px 50px 480px ;
+    width: 960px;
+    font: 19px/32px "Georgia";
+    color: #555;  
+}
+
+.photo
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #132d36;
+    display: block;
+    float: left;
+}
+
+.quote
+{
+    margin: 50px 120px 50px 60px ;
+    display: block;
+    float: right;
+}
+
+.quotes
+{
+    margin-bottom: -20px;
+}
+
+.quote__text
+{
+    padding: 0 0 0 55px;
+    width: 510;
+    font: 28px/42px italic;
+    color: #848484;
+    font-style: italic;
+}
+
+.quote__footer
+{ 
+    padding: 0 0 0 55px;
+    width: 510;
+    font: 600 16px/42px "Open Sans";
+    color: #333;
+}
+
+
+.content
+{
+    margin: 50px 480px 50px 480px ;
+    width: 960px;
+    font: 19px/32px "Georgia";
+    color: #555;  
+}
+
+.list
+{
+    max-width: 320px;
+    font: 19px/36px;
+    display: block;
+    float: left;
+}
+
+.list__text
+{
+    margin: 30px 50px 50px -20px;
+}
+
+.list__header
+{
+    margin: 0 50px 0 0;
+    font: 600 24px/32px "Open Sans";
+    color: #15a98c;
+}
+
+.article
+{
+    margin: 20px 0 0 50px;
+    display: block;
+    float: right;
+}
+
+.article__line
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3aa;
+}
+
+.article__text 
+{
+    max-width: 510px;
+    font: 19px/32px;
+    margin: 0 0 50px 0;
+}
+
+
+.article__h1
+{
+    margin: -20px 0 20px 0;
+    font: 700 48px/42px  "Open Sans";
+    color: #333;
+}
+
+.article__h2
+{
+    margin: 50px 0 30px 0;
+    font: 400 36px/42px "Open Sans";
+    color: #333;
+}
+
+.article__footer 
+{
+    font: 19px/32px;
+    color: #15a98b;
+}
+
+.content__footer_underline
+{
+    text-decoration: underline;
+}
+
+.clear
+{
+    clear: both;
+}
