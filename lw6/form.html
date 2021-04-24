@@ -36,10 +36,7 @@
 
 .text-area
 {
-	width: 540px;
-    height: 150px;
-	border-radius: 3px;
-    border: 2px solid #c9c9c9;
+  resize: unset;
 }
 
 .button
@@ -54,12 +51,32 @@
     font-family: "Georgia";
 }
 
+.background
+{
+	background-image: url(/Users/abu13/web-development/img/background.jpg);
+	width: 100%;
+}
+
+.body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.child {
+
+}
 </style>
 </head>
 
-<body>
+<body class="body">
 	
-
+  <div class="background">
 	<form name="form" action="mail.php" method="post" id="form_message">
 		<p> <div class="" >Ваше имя <span class="text_red">*</span></div> <input class="input" name="name" type="text"/> </p>
 		 
@@ -78,5 +95,13 @@
 		<p> <div class="">Ваше сообщение <span class="text_red">*</span></div><input name="message" class="text-area" type="text"/></p>
 		<p><input value="Отправить" type="submit"  class="button"/></p>
 	</form>
+</div>
+
+   <div class="parent">
+	   <span>Ghbdtn0</span>
+	   <div class="child">Ghbdtn1</div>
+	   <div class="child">Ghbdtn2</div>
+	   <div class="child">Ghbdtn3</div>
+   </div>
 </body>
 </html>
