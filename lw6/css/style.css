@@ -303,7 +303,7 @@
     background-color: white;
     font-size: 36px;
     line-height: 42px;
-    color: #333333;
+    color: #333;
     font-weight: 300;
     font-family: "Open Sans";
 }
@@ -313,7 +313,7 @@
     flex-direction: column;
     font-size: 20px;
     line-height: 32px;
-    color: #333333;
+    color: #333;
     font-weight: 400;
     font-family: "Open Sans";
 }
@@ -467,7 +467,7 @@
     font-weight: 400;
     font-family: "Open Sans";
     appearance:none;
-    background-image: url(/Users/abu13/web-development/img/arrow_down.png);
+    background-image: url(/Users/abu13/web-development/lw6/img/arrow_down.png);
     background-repeat:no-repeat;
     background-position-x: 97%;
     background-position-y: center;
