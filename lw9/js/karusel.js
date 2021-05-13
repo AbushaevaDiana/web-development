@@ -1,10 +1,3 @@
-let i = 1;
-let max = 0;
-for(let li of document.querySelectorAll('li')) {
-  li.style.position = 'relative';
-  li.insertAdjacentHTML('beforeend', `<span style="position:absolute;left:0;top:0">${i}</span>`);
-  i++;
-  }
 
     /* конфигурация */
     let width = 256; // ширина картинки
@@ -26,6 +19,7 @@ for(let li of document.querySelectorAll('li')) {
 
     };
 
+
     carousel.querySelector('.next').onclick = function() {
       // сдвиг вправо
       position -= width;
@@ -35,12 +29,3 @@ for(let li of document.querySelectorAll('li')) {
       }
       list.style.marginLeft = position + 'px';
     };
-
-
-
-
-
-
-    
-
-

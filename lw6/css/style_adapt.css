@@ -7,14 +7,14 @@
 .topmenu
 {
     padding-top: 0;
-    margin-top: -15px;
+    margin-top: 0;
     max-width: 100%;
     min-height: 50px;
-    margin-bottom: -66px;
 }
 
 .menu 
-{
+{  
+    margin: 0;
     padding: 0;
     list-style: none; 
     display: flex;
@@ -25,6 +25,8 @@
 
 .menu__list 
 {
+    margin: 0;
+    padding: 0;
     min-height: 50px;
     margin-right: auto;
     min-width: 160px;
@@ -58,7 +60,8 @@
 
 .top
 {
-    margin: 0 0 50px 0;
+    margin: 0;
+    padding: 0;
     background-image: url(/Users/abu13/web-development/img/background.jpg);
     display: flex;
     flex-direction: column;
@@ -69,7 +72,8 @@
 
 .quoteblock
 {
-    margin-top: 60px;
+    margin-top: 0;
+    padding-top: 60px;
     max-width: 100%;
     color: #fff;
     font: 28px/42px italic;
@@ -147,11 +151,12 @@
 {
     font: 600 24px/32px "Open Sans";
     color: #15a98c;
+    margin-left: 20px;
 }
 
 .list__text
 {
-    margin: 30px 50px 50px -20px;
+    margin: 30px 50px 50px 0;
 }
 
 .article__footer 
@@ -164,7 +169,6 @@
 
 .article__footer_underline
 {
-
     border-bottom:  #15a98b;
 }
 
@@ -207,8 +211,9 @@
     color: #333;
     font-weight: 700;
     font-family: "Open Sans";
-    padding: 0;
-    margin: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
 }
 
 .movies__content__photo
@@ -232,10 +237,10 @@
     font-size: 16px;
     line-height: 28px;
     color: #555;
-    margin-top: -10px;
+    margin-top: 0;
     font-family: "Georgia";
     margin-bottom: 50px;
-    padding: 0;
+    padding-top: 0;
 }
 
 .movies__content__button
@@ -408,7 +413,7 @@ input[type='radio']:checked::after
 
 .gender__text
 {
-    margin-top: -2px;
+    margin-top: 0;
 }
 
 .text-area
@@ -471,7 +476,7 @@ input[type='radio']:checked::after
 {
     .topmenu
     {
-        margin: 0 auto -50px 0;
+        margin: 0 auto 0 0;
     }
 
     .menu 
@@ -630,10 +635,9 @@ input[type='radio']:checked::after
 
 @media screen and (min-width: 1366px)
 {
-
     .topmenu
     {
-        margin: 0 auto -50px 0;
+        margin: 0 auto 0 0;
     }
 
     .menu 
@@ -667,17 +671,18 @@ input[type='radio']:checked::after
         padding-left: 20px;
     }
 
+    top
+    {
+        margin: 0 460px 0 460px;
+    }
+
     .article
     {
-        margin-top: -200px;
+        margin-top: 0;
     }
 
     .article__h2
     {
         margin-top: 70px;
     }
-    
-
-
-
 }
