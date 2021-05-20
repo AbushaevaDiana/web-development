@@ -38,13 +38,19 @@ for ($i = 0; $i < strlen($checkString); $i++)
 
 $passwordStrength += strlen($checkString) * 4;//
 $passwordStrength += $digitCount * 4;//
-$passwordStrength += (strlen($checkString) - $highRegisterCount) * 2;//
-$passwordStrength += (strlen($checkString) - $lowRegisterCount) * 2;//
+if($highRegisterCount != 0)
+{
+    $passwordStrength += (strlen($checkString) - $highRegisterCount) * 2;//
+}
+if($lowRegisterCount != 0)
+{
+    $passwordStrength += (strlen($checkString) - $lowRegisterCount) * 2;//
+}
 
 //only one type check
 if($digitCount == 0)
 {
-    $passwordStrength -= $highRegisterCount + $lowRegisterCount; 
+    $passwordStrength -= ($highRegisterCount + $lowRegisterCount); 
 }
 
 if($lowRegisterCount == 0 && $highRegisterCount == 0)
@@ -57,7 +63,7 @@ for ($i = 0; $i < strlen($checkString); $i++)
 {
     if(substr_count($checkString, $checkString[$i]) > 1)
     {
-        $passwordStrength--;
+        $passwordStrength --;
     }
 }
 
