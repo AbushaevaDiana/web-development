@@ -33,7 +33,7 @@
 }
 
 .head-menu__about-me 
-{       
+{
     height: 50px;
     width: 140px;
 }
@@ -490,6 +490,7 @@
 .write-me-form__text:hover 
 {
     border-radius: 3px;
+    background-color: #c9c9c9;
     border: 2px solid #a6a6a6;
 }
 
@@ -517,22 +518,21 @@
 .write-me-form-gender 
 {
     width: 529px;
-    margin: 41px 0 0;
-    margin-left: 75px;
+    margin: 41px auto 0px;
 }
 
-.write-me-form__selekt 
+.write-me-form__hover 
 {
     outline: none;
     cursor: pointer;
-    width: 564px;
-    height: 63px;
+    width: 540px;
+    height: 50px;
     margin-left: 14px;
     margin-top: 5px;
     padding: 0 0 3px 12px;
     border-radius: 3px;
     background-color: #fff;
-    border: 2px solid #c9c9c9;
+    border: 2px solid #a6a6a6;
     font-size: 18px;
     line-height: 32px;
     color: #555;
@@ -543,7 +543,6 @@
     background-repeat:no-repeat;
     background-position-x: 97%;
     background-position-y: center;
-
 }
 
 .write-me-form-send 
