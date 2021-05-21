@@ -6,13 +6,7 @@ SELECT
     faculty.faculty_name AS faculty
 FROM
     student
-JOIN
-    class
-ON 
-    student.class_id = class.class_id
-JOIN
-    faculty
-ON 
-    class.faculty_id = faculty.faculty_id
+    INNER JOIN class ON student.class_id = class.class_id
+    INNER JOIN faculty ON class.faculty_id = faculty.faculty_id
 WHERE
-    faculty_name LIKE '%FIiVT%';
+    faculty_name = 'FIiVT';
