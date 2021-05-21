@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.body-background 
+.body_background 
 {
     background-image: url("background.png");
     background-size: contain;
@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
 }
 
-.head-menu 
+.head_menu 
 {
     margin: 0px auto;
     height: 50px;
@@ -27,18 +27,18 @@
     text-align: center;
 }
 
-.head-menu__text 
+.head_menu__text 
 {
     margin: 10px;
 }
 
-.head-menu__about-me 
+.head_menu__aboutme 
 {       
     height: 50px;
     width: 140px;
 }
 
-.head-menu__about-me:hover 
+.head_menu__aboutme:hover 
 {
     background-color: #15a98c;
     color: #f5f5f5;
@@ -46,13 +46,13 @@
     width: 140px;
 }
 
-.head-menu__my-hobby 
+.head_menu__myhobby 
 {
     width: 160px;
     height: 50px;
 }
 
-.head-menu__my-hobby:hover 
+.head_menu__myhobby:hover 
 {
     background-color: #15a98c;
     color: #f5f5f5;
@@ -60,13 +60,13 @@
     height: 50px;
 }
 
-.head-menu__favorite-films 
+.head_menu__favoritefilms 
 {
     height: 50px;
     width: 230px;
 }
 
-.head-menu__favorite-films:hover 
+.head_menu__favoritefilms:hover 
 {
     background-color: #15a98c;
     color: #f5f5f5;
@@ -87,17 +87,17 @@
     display: block;
 }
 
-.main-left 
+.main_left 
 {
     float: left;
 }
 
-.main-right 
+.main_right 
 {
     float: right;
 }
 
-.main-left-image__photo 
+.main_left_image__photo 
 {
     width: 330px;
     height: 350px;
@@ -106,12 +106,12 @@
     object-fit: cover;
 }
 
-.main-left-list 
+.main_left_list 
 {
     margin-top: 40px;
 }
 
-.main-left-list__head 
+.main_left_list__head 
 {
     font-size: 24px;
     line-height: 32px;
@@ -120,7 +120,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.main-left-list__elements 
+.main_left_list__elements 
 {
     margin-bottom: 42px;
     margin-left: 22px;
@@ -132,25 +132,25 @@
     font-family: "Georgia";
 }
 
-.main-right 
+.main_right 
 {
     margin-top: 68px;
 }
 
-.main-right-quote 
+.main_right_quote 
 {
     margin-top: -43px;
     margin-left: -2px;
     margin-bottom: ‒1px;
 }
 
-.main-right-quote-quotes__img 
+.main_right_quote_quotes__img 
 {
     width: 130px;
     height: 87px;
 }
 
-.main-right-quote__text 
+.main_right_quote__text 
 {
     margin-right: -61px;
     margin-top: -23px;
@@ -162,7 +162,7 @@
     font-family: "Georgia";
 }
 
-.main-right-quote__autor 
+.main_right_quote__autor 
 {
     margin-top: 1px;
     margin-left: 2px;
@@ -173,13 +173,13 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.main-right-article 
+.main_right_article 
 {
     margin-top: 83px;
     width: 605px;
 }
 
-.main-right-article__name 
+.main_right_article__name 
 {
     font-weight: 700;
     font-size: 48px;
@@ -188,7 +188,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.main-right-article__rectangle 
+.main_right_article__rectangle 
 {
     margin-top: 32px;
     margin-left: -6px;
@@ -199,7 +199,7 @@
     background-color: #45c3aa;
 }
 
-.main-right-article__text 
+.main_right_article__text 
 {
     margin-left: -5px;
     font-size: 19px;
@@ -208,7 +208,7 @@
     font-family: "Georgia";
 }
 
-.main-right-article__hobby 
+.main_right_article__hobby 
 {
     margin-top: 42px;
     margin-left: -5px;
@@ -220,7 +220,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.main-right-article-write-me 
+.main_right_article_writeme 
 {
     margin-top: 41px;
     margin-left: -5px;
@@ -230,7 +230,7 @@
     font-family: "Georgia";
 }
 
-.main-right-article-write-me__link 
+.main_right_article_writeme__link 
 {
     font-size: 19px;
     line-height: 32px;
@@ -239,13 +239,13 @@
     font-family: "Georgia";
 }
 
-.favorite-films-background 
+.favoritefilms_background 
 {
     background-color: #f9f9f9;
     width: 100%;
 }
 
-.favorite-films 
+.favoritefilms 
 {
     width: 1200px;
     margin: 0px auto;
@@ -258,7 +258,7 @@
     font-family: "Georgia";
 }
 
-.favorite-films-header 
+.favoritefilms_header 
 {
     font-size: 36px;
     line-height: 42px;
@@ -267,7 +267,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.favorite-films-list 
+.favoritefilms_list 
 {
     margin-top: 33px;
     margin-bottom: 54px;
@@ -277,12 +277,12 @@
     flex-direction: row;
 }
 
-.favorite-films-list-element 
+.favoritefilms_list_element 
 {
     margin-left: 20px;
 }
 
-.favorite-films-list-header 
+.favoritefilms_list_header 
 {
     margin-top: 14px;
     margin-left: -2px;
@@ -294,7 +294,7 @@
     font-family: "Open Sans";
 }
 
-.favorite-films__all-films 
+.favoritefilms__allfilms 
 {
     display: block;
     margin: 0px auto;
@@ -309,7 +309,7 @@
     background-color: #15a98c;
 }
 
-.favorite-films__all-films:hover 
+.favoritefilms__allfilms:hover 
 {
     display: block;
     margin: 0px auto;
@@ -324,7 +324,7 @@
     background-color: #098d71;
 }
 
-.write-me 
+.writeme 
 {
     width: 698px;
     padding-right: 54px;
@@ -332,12 +332,12 @@
     margin-top: 68px;
 }
 
-.red-star 
+.redstar 
 {
     color: #ee0707;
 }
 
-.wrtite-me-header__text 
+.wrtiteme_header__text 
 {
     margin: -24px 0 0 200px;
     width: 298px;
@@ -349,7 +349,7 @@
     font-family: "Open Sans";
 }
 
-.write-me-form 
+.writeme_form 
 {
     display: flex;
     flex-direction: column;
@@ -360,13 +360,13 @@
     font-family: "Open Sans";
 }
 
-.write-me-form__label 
+.writeme_form__label 
 {
     display: block;
     margin-left: 11px;
 }
 
-.write-me-form-gender-radios 
+.writeme_form_gender_radios 
 {
     margin: 4px 0 0 4px;
     font-size: 18px;
@@ -425,20 +425,20 @@
 
 
 
-.write-me-form__label_gender 
+.writeme_form__label_gender 
 {
     display: inline-block;
     margin-left: 10px;
     margin-right: 40px;
 }
 
-.write-me-form__label_country 
+.writeme_form__label_country 
 {
     display: block;
     margin-left: 13px;
 }
 
-.write-me-form__text 
+.writeme_form__text 
 {
     margin-left: 12px;
     width: 535px;
@@ -458,17 +458,17 @@
     padding-top: 15px;
 }
 
-.write-me-form-massage 
+.writeme_form_massage 
 {
     margin: 36px auto 0px;
 }
 
-.write-me-form-massage__header 
+.writeme_form_massage__header 
 {
     margin: 0px 0px 3px 11px;
 }
 
-.write-me-form__textarea 
+.writeme_form__textarea 
 {
     outline: none;
     resize: none;
@@ -487,41 +487,41 @@
     padding-top: 15px;
 }
 
-.write-me-form__text:hover 
+.writeme_form__text:hover 
 {
     border-radius: 3px;
     border: 2px solid #a6a6a6;
 }
 
-.write-me-form__text:focus,
-.write-me-form__textarea:focus 
+.writeme_form__text:focus,
+.writeme_form__textarea:focus 
 {
     border: 2px solid #15a98c;
 }
 
-.write-me-form-name 
+.writeme_form_name 
 {
     margin: 68px auto 0px;
 }
 
-.write-me-form-email 
+.writeme_form_email 
 {
     margin: 25px auto 0px;
 }
 
-.write-me-form-country 
+.writeme_form_country 
 {
     margin: 25px auto 0px;
 }
 
-.write-me-form-gender 
+.writeme_form_gender 
 {
     width: 529px;
     margin: 41px 0 0;
     margin-left: 75px;
 }
 
-.write-me-form__selekt 
+.writeme_form__selekt 
 {
     outline: none;
     cursor: pointer;
@@ -546,7 +546,7 @@
 
 }
 
-.write-me-form-send 
+.writeme_form_send 
 {
     display: block;
     margin-top: 42px;
@@ -562,7 +562,7 @@
     background-color: #15a98c;
 }
 
-.write-me-form-send:hover 
+.writeme_form_send:hover 
 {
     display: block;
     margin-top: 42px;
@@ -578,7 +578,7 @@
     background-color: #098d71;
 }
 
-.footer-background 
+.footer_background 
 {
     background-color: #f9f9f9;
     margin-top: 50px;
