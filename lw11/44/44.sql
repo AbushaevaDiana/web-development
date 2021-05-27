@@ -6,7 +6,7 @@ SELECT
     faculty.faculty_name AS faculty
 FROM
     student
-    INNER JOIN class ON student.class_id = class.class_id
-    INNER JOIN faculty ON class.faculty_id = faculty.faculty_id
+    LEFT JOIN class ON student.class_id = class.class_id
+    LEFT JOIN faculty ON class.faculty_id = faculty.faculty_id
 WHERE
     student_id = 1;

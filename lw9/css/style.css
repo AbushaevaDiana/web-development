@@ -1,0 +1,652 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.body_background 
+{
+    background-image: url("background.png");
+    background-size: contain;
+    background-position-y: 50px;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+}
+
+.head_menu 
+{
+    margin: 0px auto;
+    height: 50px;
+    width: 1000px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Georgia";
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.head_menu__text 
+{
+    margin: 10px;
+}
+
+.head_menu__aboutme 
+{       
+    height: 50px;
+    width: 140px;
+}
+
+.head_menu__aboutme:hover 
+{
+    background-color: #15a98c;
+    color: #f5f5f5;
+    height: 50px;
+    width: 140px;
+}
+
+.head_menu__myhobby 
+{
+    width: 160px;
+    height: 50px;
+}
+
+.head_menu__myhobby:hover 
+{
+    background-color: #15a98c;
+    color: #f5f5f5;
+    width: 160px;
+    height: 50px;
+}
+
+.head_menu__favoritefilms 
+{
+    height: 50px;
+    width: 230px;
+}
+
+.head_menu__favoritefilms:hover 
+{
+    background-color: #15a98c;
+    color: #f5f5f5;
+    height: 50px;
+    width: 230px;
+}
+
+.main 
+{
+    margin: 210px auto 55px;
+    width: 1000px;
+}
+
+.main::after 
+{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.main_left 
+{
+    float: left;
+}
+
+.main_right 
+{
+    float: right;
+}
+
+.main_left_image__photo 
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #132d36;
+    object-fit: cover;
+}
+
+.main_left_list 
+{
+    margin-top: 40px;
+}
+
+.main_left_list__head 
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main_left_list__elements 
+{
+    margin-bottom: 42px;
+    margin-left: 22px;
+    margin-top: 13px;
+    width: 330px;
+    font-size: 19px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.main_right 
+{
+    margin-top: 68px;
+}
+
+.main_right_quote 
+{
+    margin-top: -43px;
+    margin-left: -2px;
+    margin-bottom: ‒1px;
+}
+
+.main_right_quote_quotes__img 
+{
+    width: 130px;
+    height: 87px;
+}
+
+.main_right_quote__text 
+{
+    margin-right: -61px;
+    margin-top: -23px;
+    width: 500px;
+    font-size: 28px;
+    line-height: 42px;
+    color: #ffffff;
+    font-style: italic;
+    font-family: "Georgia";
+}
+
+.main_right_quote__autor 
+{
+    margin-top: 1px;
+    margin-left: 2px;
+    font-size: 16px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main_right_article 
+{
+    margin-top: 83px;
+    width: 605px;
+}
+
+.main_right_article__name 
+{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main_right_article__rectangle 
+{
+    margin-top: 32px;
+    margin-left: -6px;
+    margin-bottom: 44px;
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3aa;
+}
+
+.main_right_article__text 
+{
+    margin-left: -5px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.main_right_article__hobby 
+{
+    margin-top: 42px;
+    margin-left: -5px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main_right_article_writeme 
+{
+    margin-top: 41px;
+    margin-left: -5px;
+    line-height: 32px;
+    color: #098d72;
+    width: 562px;
+    font-family: "Georgia";
+}
+
+.main_right_article_writeme__link 
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: #098d72;
+    width: 562px;
+    font-family: "Georgia";
+}
+
+.favoritefilms_background 
+{
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.favoritefilms 
+{
+    width: 1360px;
+    margin: 0px auto;
+    padding-top: 36px;
+    padding-right: 40px;
+    padding-bottom: 59px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555;
+    font-family: "Georgia";
+}
+
+.favoritefilms_list_img
+{
+    width: 285px;
+    height: 190px;
+    border-radius: 5px;
+}
+
+.favoritefilms_header 
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: #333;
+    margin-left: 80px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.box_favoritefilms_list
+{
+    width: 1200px;
+    overflow: hidden;
+}
+
+.favoritefilms_list 
+{
+    margin-top: 33px;
+    margin-bottom: 54px;
+    margin-left: -20px;
+    width: 285;
+    display: flex;
+    flex-direction: row;
+}
+
+.favoritefilms_list_element 
+{
+    margin-left: 20px;
+}
+
+.favoritefilms_list_header 
+{
+    margin-top: 14px;
+    margin-left: -2px;
+    margin-bottom: 17px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.arrows
+{
+  width: 15px;
+  height: 30px;
+}
+
+.arrow {
+    display: block;
+    margin-top: 100px;
+    font-family: "Georgia";
+    border-width: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #15a98c;
+}
+
+.arrow:focus 
+{
+    outline: none;
+}
+  
+.arrow:hover 
+{
+    cursor: pointer;
+}
+
+.arrow_prev
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.arrow_next
+{
+    float: right;
+    margin-left: 20px;
+}
+
+.favoritefilms__allfilms 
+{
+    display: block;
+    margin: 0px auto;
+    font-size: 19px;
+    line-height: 32px;
+    color: #f5f5f5;
+    font-family: "Georgia";
+    border-width: 0px;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98c;
+}
+
+.favoritefilms__allfilms:hover 
+{
+    display: block;
+    margin: 0px auto;
+    font-size: 19px;
+    line-height: 32px;
+    color: #f5f5f5;
+    font-family: "Georgia";
+    border-width: 0px;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+}
+
+.writeme 
+{
+    width: 698px;
+    padding-right: 54px;
+    margin: 0px auto;
+    margin-top: 68px;
+}
+
+.redstar 
+{
+    color: #ee0707;
+}
+
+.wrtiteme_header__text 
+{
+    margin: -24px 0 0 200px;
+    width: 298px;
+    background-color: white;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.writeme_form 
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.writeme_form__label 
+{
+    display: block;
+    margin-left: 11px;
+}
+
+.writeme_form_gender_radios 
+{
+    margin: 4px 0 0 4px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+    font-weight: 400;
+    font-family: "Open Sans";
+    display: flex;
+}
+
+
+.radius,label 
+{
+    cursor: pointer;
+}
+
+.radius 
+{
+    align-self: center;
+    position:  relative;
+    height: 22px;
+    width: 22px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+.radius::before 
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5f5f5;
+    border: 2px solid  #c9c9c9  ;
+}
+
+.radius:checked::after 
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #555;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+
+
+.writeme_form__label_gender 
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.writeme_form__label_country 
+{
+    display: block;
+    margin-left: 13px;
+}
+
+.writeme_form__text 
+{
+    margin-left: 12px;
+    width: 535px;
+    height: 45px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 2px solid #c9c9c9;
+    outline: none;
+    resize: unset;
+    font-size: 18px;
+    line-height: 32px;
+    color: #555;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.writeme_form_massage 
+{
+    margin: 36px auto 0px;
+}
+
+.writeme_form_massage__header 
+{
+    margin: 0px 0px 3px 11px;
+}
+
+.writeme_form__textarea 
+{
+    outline: none;
+    resize: none;
+    width: 535px;
+    margin-left: 12px;
+    height: 145px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 2px solid #c9c9c9;
+    font-size: 18px;
+    line-height: 32px;
+    color: #555;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.writeme_form__text:hover 
+{
+    border-radius: 3px;
+    border: 2px solid #a6a6a6;
+}
+
+.writeme_form__text:focus,
+.writeme_form__textarea:focus 
+{
+    border: 2px solid #15a98c;
+}
+
+.writeme_form_name 
+{
+    margin: 68px auto 0px;
+}
+
+.writeme_form_email 
+{
+    margin: 25px auto 0px;
+}
+
+.writeme_form_country 
+{
+    margin: 25px auto 0px;
+}
+
+.writeme_form_gender 
+{
+    width: 529px;
+    margin: 41px 0 0;
+    margin-left: 75px;
+}
+
+.writeme_form__selekt 
+{
+    outline: none;
+    cursor: pointer;
+    width: 564px;
+    height: 63px;
+    margin-left: 14px;
+    margin-top: 5px;
+    padding: 0 0 3px 12px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 2px solid #c9c9c9;
+    font-size: 18px;
+    line-height: 32px;
+    color: #555;
+    font-weight: 400;
+    font-family: "Open Sans";
+    appearance:none;
+    background-image: url(/Users/abu13/web-development/lw6/img/arrow_down.png);
+    background-repeat:no-repeat;
+    background-position-x: 97%;
+    background-position-y: center;
+
+}
+
+.writeme_form_send 
+{
+    display: block;
+    margin-top: 42px;
+    margin-left: 86px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #f5f5f5;
+    font-family: "Georgia";
+    border-width: 0px;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98c;
+}
+
+.writeme_form_send:hover 
+{
+    display: block;
+    margin-top: 42px;
+    margin-left: 86px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #f5f5f5;
+    font-family: "Georgia";
+    border-width: 0px;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+}
+
+.footer_background 
+{
+    background-color: #f9f9f9;
+    margin-top: 50px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.footer 
+{
+    width: 720px;
+    margin: 0px auto;
+    padding-right: 55px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+}

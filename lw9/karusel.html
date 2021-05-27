@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset= utf-8>
+    <title>lw6: flex</title>
+    <link rel="stylesheet" href="/Users/abu13/web-development/lw9/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="\Users\abu13\web-development\lw9\js\karusel.js" defer></script>
+</head>
+
+<body class="body_background">
+    <header class="head_menu">
+        <div class="head_menu__aboutme">
+            <div class="head_menu__text">
+                <img src="img/icon_about_me.png"> Обо мне
+            </div>
+        </div>
+        <div class="head_menu__myhobby">
+            <div class="head_menu__text">
+                <img src="img/icon_hobby.png"> Мое хобби
+            </div>
+        </div>
+        <div class="head_menu__favoritefilms">
+            <div class="head_menu__text">
+                <img src="img/icon_video.png"> Любимые фильмы
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main_left">
+            <div class="main_left_image">
+                <img class="main_left_image__photo" src="img/photo.png" alt="Фото">
+            </div>
+            <div class="main_left_list">
+                <div class="main_left_list__head">
+                    Любимые писатели:
+                </div>
+                <ul class="main_left_list__elements">
+                    <li>Айзек Азимов</li>
+                    <li>Говард Лавкрафт</li>
+                    <li>Дмитрий Глуховский</li>
+                    <li>Чак Паланик</li>
+                </ul>
+                <div class="main_left_list__head">
+                    Любимые фильмы:
+                </div>
+                <ol class="main_left_list__elements">
+                    <li>Шоу Трумэна</li>
+                    <li>Малхолланд Драйв</li>
+                    <li>Семь жизней</li>
+                    <li>Гравитация</li>
+                </ol>
+            </div>
+        </div>
+        <div class="main_right">
+            <div class="main_right_quote">
+                <div class="main_right_quote__text">
+                    Мы берем на себя много, потому что мало чего боимся
+                </div>
+                <div class="main_right_quote__autor">
+                    — Том Демарко. Deadline
+                </div>
+            </div>
+            <div class="main_right_article">
+                <h1 class="main_right_article__name">
+                    Jane Doe
+                </h1>
+                <div class="main_right_article__rectangle"></div>
+                <p class="main_right_article__text">
+                    В 1930-е годы прошлого века физик Джордж Гамоу из </br>
+                    университета штата Колорадо начал публиковать </br>
+                    мини-сериал рассказов о неком мистере Томпкинсе, </br>
+                    банковском клерке средних лет. Мистер Томпкинс, как </br>
+                    явствовало из этих историй, интересовался современной </br>
+                    наукой.
+                </p>
+                <h2 class="main_right_article__hobby">
+                    Мое хобби
+                </h2>
+                <p class="main_right_article__text">
+                    Он регулярно посещал вечерние лекции местного профессора </br>
+                    и, разумеется, всегда засыпал на самом интересном месте. </br>
+                    А когда просыпался, то обнаруживал себя в каком-нибудь </br>
+                    параллельном мире, где один из основных законов физики </br>
+                    действовал не так, как в его мире.
+                </p>
+                <div class="main_right_article_writeme">
+                    <a class="main_right_article_writeme__link" href="https://www.google.com/example">Напиши мне</a> →
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="favoritefilms_background">
+        <div class="favoritefilms"  id="carousel">
+            <h2 class="favoritefilms_header">Любимые фильмы</h2>
+            <button class="arrow arrow_prev" id="prev">
+                <img class="arrows" src="img/arrow_left.png">
+            </button>
+                <button class="arrow arrow_next" id="next">
+                    <img class="arrows" src="img/arrow_right.png">
+                </button>
+            <div class="box_favoritefilms_list">
+            <div class="favoritefilms_list" id="list">  
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/escape.png">
+                    <h3 class="favoritefilms_list_header">Побег из Шоушенка</h3>
+                    <p>
+                        Успешный банкир Энди Дюфрейн обвинен в убийстве собственной жены и ее любовника.
+                        Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, 
+                        царящими по обе стороны решетки. Каждый, кто попадает в эти стены, становится их рабом
+                        до конца жизни. Но Энди, вооруженный живым умом и доброй душой, отказывается мириться 
+                        с приговором судьбы и начинает разрабатывать невероятно дерзкий план своего освобождения.
+                    </p>
+                </div>
+
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/narcosis.png">
+                    <h3 class="favoritefilms_list_header">Наркоз</h3>
+                    <p>
+                        Клай Бересфорд вынужден лечь под нож. Однако в процессе операции на сердце он неожиданно 
+                        приходит в себя. Находясь в парализованном состоянии, будучи не в силах пошевелить 
+                        ни рукой, ни ногой, он, тем не менее, чувствует каждое касание скальпеля к своей
+                        плоти…
+                    </p>
+                </div>
+
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/astral.png">
+                    <h3 class="favoritefilms_list_header">Астрал</h3>
+                    <p>
+                        Джош и Рене переезжают со своими детьми в новый дом, но не успевают толком распаковать 
+                        вещи, как начинаются странные события. Необъяснимо перемещаются предметы, в детской звучат 
+                        странные звуки… Но в настоящий ужас приходят родители, когда их десятилетний
+                        сын Далтон впадает в кому. Все усилия врачей в больнице помочь мальчику безуспешны.
+                    </p>
+                </div>
+
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/gravitation.png">
+                    <h3 class="favoritefilms_list_header">Гравитация</h3>
+                    <p>
+                        Доктор Райан Стоун, блестящий специалист в области медицинского инжиниринга, отправляется 
+                        в свою первую космическую миссию под командованием ветерана астронавтики Мэтта Ковальски, 
+                        для которого этот полет — последний перед отставкой. Но во время, казалось
+                        бы, рутинной работы за бортом случается катастрофа. Шаттл уничтожен, а Стоун и Ковальски 
+                        остаются совершенно одни; они находятся в связке друг с другом, и все, 
+                        что они могут, — это двигаться по орбите в абсолютно черном пространстве
+                        без всякой связи с Землей и какой-либо надежды на спасение.
+                    </p>
+                </div>
+
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/goodomens.png">
+                    <h3 class="favoritefilms_list_header">Благие знамения</h3>
+                    <p>
+                        Действие сериала разворачивается в 2018 году. Демон Кроули (Дэвид Теннант)
+                         и ангел Азирафель (Майкл Шин), успев привыкнуть к жизни на Земле, стремятся 
+                         предотвратить пришествие антихриста и заодно финальную битву между Раем и Адом.
+                    </p>
+                </div>
+
+                
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/mayorgrom.png">
+                    <h3 class="favoritefilms_list_header">Майор Гром: Чумной Доктор</h3>
+                    <p>
+                        Майор полиции Игорь Гром известен всему Санкт-Петербургу своим пробивным характером
+                         и непримиримой позицией по отношению к преступникам всех мастей. Неимоверная сила,
+                        аналитический склад ума и неподкупность – всё это делает майора Грома идеальным полицейским, 
+                        не знающим преград. Но всё резко меняется с появлением человека в маске Чумного Доктора.
+                    </p>
+                </div>
+
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/dusha.jpg">
+                    <h3 class="favoritefilms_list_header">Душа</h3>
+                    <p>
+                        Уже немолодой школьный учитель музыки Джо Гарднер всю жизнь мечтал выступать на сцене в составе
+                         джазового ансамбля. Однажды он успешно проходит прослушивание у легендарной саксофонистки и, возвращаясь 
+                         домой вне себя от счастья, падает в люк и умирает. Теперь у Джо одна дорога — в Великое После, но он 
+                         сбегает с идущего в вечность эскалатора и случайно попадает в Великое До. Тут новенькие души обретают 
+                         себя, и у будущих людей зарождаются увлечения, мечты и интересы. Джо становится наставником упрямой души 22, 
+                         которая уже много веков не может найти свою искру и отправиться на Землю.
+                    </p>
+                </div>
+
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/vjazetolkodevyshki.png">
+                    <h3 class="favoritefilms_list_header">В джазе только девушки</h3>
+                    <p>
+                        Когда чикагские музыканты Джо и Джерри случайно становятся свидетелями бандитской перестрелки, они в срочном 
+                        порядке смываются на поезде во Флориду, прикинувшись женщинами. Теперь они — Джозефина и Дафна, новенькие и 
+                        хорошенькие инструменталистки женского джаз — банда.
+                    </p>
+                </div>
+
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/nazadvbudushee.png">
+                    <h3 class="favoritefilms_list_header">Назад в будущее</h3>
+                    <p>
+                        Подросток Марти с помощью машины времени, сооружённой его другом-профессором доком Брауном, попадает 
+                        из 80-х в далекие 50-е. Там он встречается со своими будущими родителями, ещё подростками, и другом-профессором, 
+                        совсем молодым.
+                    </p>
+                </div>
+
+                <div class="favoritefilms_list_element">
+                    <img class="favoritefilms_list_img" src="img/claus.png">
+                    <h3 class="favoritefilms_list_header">Клаус</h3>
+                    <p>
+                        Владелец почтовой империи, чтобы научить ленивого отпрыска по имени Джеспер уму-разуму, отправляет его на крайний 
+                        север в город Смиренсбург. Тот должен организовать там почтовое отделение и за год обработать не менее 6000 писем. 
+                        Прибыв на место, парень оказывается в зоне боевых действий: два семейных клана, так уж исторически сложилось, питают 
+                        взаимную ненависть и свято чтут многовековую традицию при любой возможности мутузить друг друга и делать пакости. 
+                        Разумеется, в такой обстановке не до писем, и почтовое отделение давно превратилось в курятник. Уже практически отчаявшись,
+                         Джеспер посещает лесного отшельника по имени Клаус, и их знакомство положит начало удивительным событиям.
+                    </p>
+                </div>
+
+            </div>
+            </div>
+            <input class="favoritefilms__allfilms" type="submit" value="Все фильмы">
+        </div>
+    </div>
+    <div class="writeme">
+        <div class="wrtiteme_header">
+            <hr/>
+            <h2 class="wrtiteme_header__text">&shy; &shy; &shy; &shy;НАПИШИ МНЕ</h2>
+        </div>
+        <form class="writeme_form">
+            <div class="writeme_form_name">
+                <label class="writeme_form__label" for="name">Ваше имя <span class="redstar">*</span></label>
+                <textarea class="writeme_form__text" type="text" name="your-name" id="name"></textarea>
+            </div>
+
+            <div class="writeme_form_email">
+                <label class="writeme_form__label" for="email">Ваш email <span class="red-star">*</span></label>
+                <textarea class="writeme_form__text" type="text" name="your-email" id="email"></textarea>
+            </div>
+
+            <div class="writeme_form_country">
+                <label class="writeme_form__label_country" for="country">Откуда вы?</label>
+                <select class="writeme_form__selekt" id="country">
+                    <option>Россия</option>
+                    <option>Китай</option>
+                    <option>Польша</option>
+                </select>
+            </div>
+
+            <div class="writeme_form_gender">
+                <div class="writeme_form_gender__head">Ваш пол</div>
+                <div class="writeme_form_gender_radios">
+                    <input type="radio" name="gender" id="male" class="radius">
+                    <label class="writeme_form__label_gender" for="male">Мужской</label>
+                    <input type="radio" name="gender" id="female" class="radius">
+                    <label class="writeme_form__label_gender" for="female">Женский</label>
+                </div>
+            </div>
+
+            <div class="writeme_form_massage">
+                <div class="writeme_form_massage__header">Ваше сообщение <span class="redstar">*</span></div>
+                <textarea class="writeme_form__textarea"></textarea>
+            </div>
+            <input class="writeme_form_send" type="submit" value="Отправить">
+        </form>
+    </div>
+    <div class="footer_background">
+        <footer class="footer">
+            © 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»
+        </footer>
+    </div>
+</body>
+
+</html>
